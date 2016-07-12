@@ -28,14 +28,12 @@ h6 {
   font-size: 1vh;
 }
 
-.post {
-
+.song {
     margin: 1vh;
-    width: 25vh;
-    height: 25vh;
+    width: 33vh;
+    height: 33vh;
     outline: 1px solid;
     vertical-align: top;
-
     display: inline-block;
 }
 
