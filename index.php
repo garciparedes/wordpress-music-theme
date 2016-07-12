@@ -7,10 +7,12 @@
                 <h1><?php the_title(); ?></h1>
 
 
-
-                <?php
-                echo do_shortcode('[sc_embed_player fileurl="http://www.example.com/wp-content/uploads/my-music/mysong.mp3"]');
-                ?>
+                <div class="player">
+                    <?php
+                        $post_meta_value = "http://wordpress.localhost/wp-content/uploads/2016/07/Allegro-from-Duet-in-C-Major.mp3";
+                        echo do_shortcode('[sc_embed_player fileurl='.$post_meta_value.']');
+                    ?>
+                </div>
             </div>
          <?php endwhile; else: ?>
              <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
