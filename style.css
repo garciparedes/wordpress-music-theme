@@ -19,12 +19,34 @@ body {
 }
 
 main {
-    padding-top: 10vh;
-    padding-bottom: 6vh;
-    display: block;
+    background-color:  #cccccc;
+    height: 100vh;
+
 }
 
+.song h1,
+.song h2,
+.song h3,
+.song h4,
+.song h5,
+.song h6 {
+    color: white;
+}
+
+.stroke {
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+#wrapper {
+    padding-top: 50px;
+}
 #content {
+    padding-top: 3vh;
     padding-left: 5%;
     padding-right: 5%;
+    background-color:  #cccccc;
+
 }
