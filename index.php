@@ -18,8 +18,11 @@
                   </div>
                   <div class="modal-body">
                     <div class="image">
-                        <img src="<?php echo z_taxonomy_image_url(get_the_category()[0]->term_id); ?>"
-                            class="img img-responsive full-width" />
+                        <?php z_taxonomy_image(
+                            get_the_category()[0]->term_id,
+                            null,
+                            array('class'=>'img img-responsive full-width')
+                        ); ?>
                     </div>
                      <p><?php the_content(); ?></p>
                   </div>
