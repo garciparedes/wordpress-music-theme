@@ -21,7 +21,7 @@
                         <img src="<?php echo z_taxonomy_image_url(get_the_category()[0]->term_id); ?>"
                             class="img img-responsive full-width" />
                     </div>
-                     <p><?php the_content(__('(more...)')); ?></p>
+                     <p><?php the_content(); ?></p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
