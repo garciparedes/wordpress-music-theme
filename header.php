@@ -14,7 +14,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top <?php if (is_admin_bar_showing()){ echo "wpadminbar-bootstrap"; }?>">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="#menu-toggle" class="navbar-brand" id="menu-toggle"><i class="material-icons">menu</i></a>

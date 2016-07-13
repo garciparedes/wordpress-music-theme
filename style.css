@@ -50,3 +50,7 @@ main {
     background-color:  #cccccc;
 
 }
+
+.wpadminbar-bootstrap {
+    margin-top: 32px !important;
+}
